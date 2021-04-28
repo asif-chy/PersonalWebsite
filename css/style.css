@@ -1,0 +1,153 @@
+
+#navbarOverride{
+position: relative;
+display: -ms-flexbox;
+display: flex;
+-ms-flex-wrap: wrap;
+flex-wrap: wrap;
+-ms-flex-align: center;
+align-items: center;
+-ms-flex-pack: justify;
+justify-content: space-between;
+padding: .5rem 5rem;
+}
+
+#navbarBrandOverride{
+display: inline-block;
+padding-top: .3125rem;
+padding-bottom: .3125rem;
+margin-right: 1rem;
+font-size: 1.5rem;
+line-height: inherit;
+white-space: nowrap;
+pointer-events: none;
+}
+
+.navbarFont{
+    font-weight: 600;
+    color: #023047;
+    font-size: 1.5rem;
+}
+
+.titleContainer{
+    position: relative;
+    text-align: left;
+    overflow: hidden;
+    background-color: none;
+}
+
+.title{
+    position: absolute;
+    display: block;
+    padding: 2%;
+    background-color: white;
+    border-radius: 10px;
+    top: 28%;
+    right: 19%;
+    left: 19%;
+}
+
+.titleH1{
+    font-weight: 600;
+    color: #023047;
+    font-size: 2.5rem;
+}
+
+.aboutContainer{
+    position: relative;
+    text-align: left;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+.about{
+    position: relative;
+    display: block;
+    padding: 2.5% 5% 2.5% 5%;
+}
+
+.aboutH1{
+    font-weight: 600;
+    color: #023047;
+    font-size: 2.5rem;
+}
+
+.aboutp{
+    font-size: 1.2rem;
+}
+
+.projectContainer{
+    position: relative;
+    text-align: left;
+    height: 100%;
+    width: 100%;
+    padding: 3%;
+    padding-bottom: 2%;
+    background-color: #8ecae6;
+}
+
+.project{
+    position: relative;
+    display: block;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.projectH1{
+    font-weight: 600;
+    color: #023047;
+    font-size: 2.5rem;
+}
+
+.projectul{
+    font-size: 1.2rem;
+}
+
+.contactContainer{
+    position: relative;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+.contact{
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 3%;
+}
+
+.contactH1{
+    font-weight: 600;
+    color: #023047;
+    font-size: 2.5rem;
+}
+
+.addressDiv{
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+.address{
+    position: relative; 
+    display: inline-block;
+    /* width: 28%; */
+    font-size: 1.2rem;
+    margin-left: 2.2%;
+    margin-right: 2.2%;
+    margin-top: 2.5%;
+}
+
+#linkedInAddress{
+    /* width: 42%; */
+} 
+
+
+
